@@ -32,3 +32,11 @@ Built various Pacman agents for playing the game in different scenarios
 - Part 3 includes the implementation of Q-learning agents, taking advantage of reinforcement learning in order to train the Pacman agent beforehand.
 These agents try to learn what the best policy is for playing a map. Given any current state on the map, they will adopt their learned policy to take a specific action.
 Agents implemented here are the basic Q-learning agent, and an approximate Q-learning agent
+
+  Usage example: python pacman.py -l mediumClassic -p ApproximateQAgent -a extractor=SimpleExtractor -x 50 -n 60
+
+  -x specifies the number of training runs, -n specifies the number of games to play
+
+Credit to UC Berkeley for the basic template of this project: http://ai.berkeley.edu
+
+Modified slightly by UCSB for the purposes of their AI class
